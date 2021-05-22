@@ -59,6 +59,14 @@ function App() {
                         <Paper align="center" className={classes.paper}>
                             <img src="../checklist.png" width='30' hight='30' style={{marginTop: '10px'}}/>
                             <typography style={{fontSize: 30, fontWeight: 'bold', color: '#1f0e0d'}}>   Achievements</typography>
+                            <div style={{textAlign: 'left', color: '#000'}}>
+                                <ul><li>1st year grade - 8.50</li> <br></br>
+                                    <li>2nd year grade - 9.35
+                                        <br></br>&nbsp;&nbsp;&nbsp; Received scholarship</li> <br></br>
+                                    <li>3rd year - 1st semester grade - 9.42
+                                        <br></br>&nbsp;&nbsp;&nbsp; Received scholarship</li> <br></br>
+                                </ul> <br></br>
+                            </div>
                         </Paper>
 
                     </Grid>
@@ -69,7 +77,7 @@ function App() {
                             <img src="../competence.png" width='30' hight='30' style={{marginTop: '10px'}}/>
                             <typography style={{fontSize: 30, fontWeight: 'bold', color: '#1f0e0d'}}>   Skills</typography>
                             <div style={{textAlign: 'left', color: '#000'}}>
-                                <ul><li>SQL, Java</li><br></br>
+                                <ul><li>SQL, Java</li> <br></br>
                                     <li>C, Excel, HTML, OOP, Design Patterns, GIT</li> <br></br>
                                         <li>C++, Matlab, Octave, PHP, Bash</li> <br></br>
                                             <li>Simulink, Verilog, Javascript, CSS</li>
