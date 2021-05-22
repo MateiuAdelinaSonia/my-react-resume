@@ -7,7 +7,7 @@ const useStyles = makeStyles((theme) => ({
     },
     paper: {
         width: 380,
-        height: 60,
+        height: 240,
         backgroundColor: "#fff",
     },
     large: {
@@ -55,6 +55,13 @@ function App() {
                         <Paper align="center" className={classes.paper}>
                             <img src="../competence.png" width='30' hight='30' style={{marginTop: '10px'}}/>
                             <typography style={{fontSize: 30, fontWeight: 'bold', color: '#1f0e0d'}}>   Skills</typography>
+                            <div style={{textAlign: 'left', color: '#000'}}>
+                                <ul><li>SQL, Java</li><br></br>
+                                    <li>C, Excel, HTML, OOP, Design Patterns, GIT</li> <br></br>
+                                        <li>C++, Matlab, Octave, PHP, Bash</li> <br></br>
+                                            <li>Simulink, Verilog, Javascript, CSS</li>
+                                </ul> <br></br>
+                            </div>
                         </Paper>
 
                     </Grid>
