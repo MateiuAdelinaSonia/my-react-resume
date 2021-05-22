@@ -38,6 +38,19 @@ function App() {
                         <Paper align="center" className={classes.paper}>
                             <img src="../graduation.png" width='30' hight='30' style={{marginTop: '10px'}}/>
                             <typography style={{fontSize: 30, fontWeight: 'bold', color: '#1f0e0d'}}>   Education</typography>
+                            <div style={{textAlign: 'center', color: '#000'}}>
+                                <br></br>
+                                Bachelor of Computer Engineering <br></br>
+                                Politehnica University of Timisoara <br></br> Computer and Information Technology <br></br>
+                                <img src="../calendar.png" width='14' hight='14' style={{marginTop: '5px'}}/>
+                                &nbsp;
+                                Oct 2018 – Jun 2022 <br></br> <br></br>
+                                Bachelor degree <br></br>
+                                "Ioan Jebelean" Theoretical High School <br></br>
+                                <img src="../calendar.png" width='14' hight='14' style={{marginTop: '5px'}}/>
+                                &nbsp;
+                                Sep 2014 – Jun 2018
+                            </div>
                         </Paper>
 
                     </Grid>
