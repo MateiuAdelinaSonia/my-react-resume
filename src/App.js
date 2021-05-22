@@ -12,11 +12,11 @@ const useStyles = makeStyles((theme) => ({
     },
     project_paper: {
         width: 420,
-        height: 1068,
+        height: 1408,
         backgroundColor: "#fff",
     },
     picture_paper: {
-        width: 420,
+        width: 380,
         height: 144,
         backgroundColor: "#fff",
     },
@@ -35,7 +35,7 @@ function App() {
 
                 <Container maxWidth="md" style={{backgroundColor: 'rgba(123,70,134,0.91)', height: '1500px', width: '460px'}}>
 
-                    <Grid item xs={12} style={{marginTop: '50px'}}>
+                    <Grid item xs={6} style={{marginTop: '50px', marginLeft: '14px'}}>
 
                         <Paper align="center" className={classes.picture_paper} style={{backgroundColor: 'rgba(123,70,134,0.91)'}}>
                             <div className={classes.root} >
@@ -137,11 +137,11 @@ function App() {
                             </typography>
                             <div style={{textAlign: 'left', color: '#000'}}>
                                 <ul>
-                                    <li> Romanian - Native</li>
+                                    <li><img src="../romania.png" width='30' hight='30' style={{marginTop: '10px'}}/> Romanian - Native</li>
                                     <br/>
-                                    <li>English - Upper Intermediate</li>
+                                    <li><img src="../us.png" width='30' hight='30' style={{marginTop: '10px'}}/> English - Upper Intermediate</li>
                                     <br/>
-                                    <li>Serbian - Intermediate</li>
+                                    <li><img src="../serbia.png" width='30' hight='30' style={{marginTop: '10px'}}/> Serbian - Intermediate</li>
                                 </ul>
                                 <br/>
                             </div>
@@ -151,12 +151,12 @@ function App() {
 
                 </Container>
 
-                <Grid align="center" item xs={6} style={{marginTop: '188px', marginRight: '20px'}}>
+                <Grid align="center" item xs={6} style={{marginTop: '8px', marginRight: '20px'}}>
 
                     <Paper align="center" className={classes.project_paper}>
                         <img src="../project.png" width='30' hight='30' style={{marginTop: '10px'}}/>
                         <typography style={{fontSize: 30, fontWeight: 'bold', color: '#1f0e0d'}}> Projects</typography>
-                        <div style={{textAlign: 'left', color: '#000'}}>
+                        <div style={{textAlign: 'left', color: '#000', marginTop: '120px'}}>
                             <p><Button variant="contained" style={{color: 'rgba(123,70,134,0.91)'}}>
                                 <b><i>Libraries App</i></b>
                             </Button>
