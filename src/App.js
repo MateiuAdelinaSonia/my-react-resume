@@ -92,6 +92,11 @@ function App() {
                         <Paper align="center" className={classes.paper}>
                             <img src="../translate.png" width='30' hight='30' style={{marginTop: '10px'}}/>
                             <typography style={{fontSize: 30, fontWeight: 'bold', color: '#1f0e0d'}}>   Languages</typography>
+                            <div style={{textAlign: 'left', color: '#000'}}>
+                                <ul><li> Romanian - Native</li> <br></br>
+                                    <li>English - Upper Intermediate</li> <br></br>
+                                        <li>Serbian - Intermediate</li></ul> <br></br>
+                            </div>
                         </Paper>
 
                     </Grid>
