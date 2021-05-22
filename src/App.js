@@ -47,13 +47,17 @@ function App() {
                             <div className={classes.root} >
                                 <Typography className={classes.root}>
                                     <img src="../github.png" width='30' hight='30' style={{marginTop: '10px'}}/>
-                                    <Link href="https://github.com/MateiuAdelinaSonia">
+                                    <a href="https://github.com/MateiuAdelinaSonia">
                                     <b>      github.com/MateiuAdelinaSonia</b> <br/>
-                                    </Link>
+                                    </a>
                                     <img src="../email.png" width='30' hight='30' style={{marginTop: '10px'}}/>
+                                    <a href="mailto:adelinasonia.mateiu@gmail.com">
                                     <b>      adelinasonia.mateiu@gmail.com</b> <br/>
+                                    </a>
                                     <img src="../phone.png" width='30' hight='30' style={{marginTop: '10px'}}/>
+                                        <a href="tel:0040765029836">
                                     <b>      Phone number: +40 765 029 836</b>
+                                        </a>
                                 </Typography>
                             </div>
                         </Paper>
@@ -139,7 +143,7 @@ function App() {
                                 <ul>
                                     <li><img src="../romania.png" width='30' hight='30' style={{marginTop: '10px'}}/> Romanian - Native</li>
                                     <br/>
-                                    <li><img src="../us.png" width='30' hight='30' style={{marginTop: '10px'}}/> English - Upper Intermediate</li>
+                                    <li><img src="../uk.png" width='30' hight='30' style={{marginTop: '10px'}}/> English - Upper Intermediate</li>
                                     <br/>
                                     <li><img src="../serbia.png" width='30' hight='30' style={{marginTop: '10px'}}/> Serbian - Intermediate</li>
                                 </ul>
