@@ -154,9 +154,9 @@ function App() {
                 <Grid align="center" item xs={6} style={{marginTop: '8px', marginRight: '20px'}}>
 
                     <Paper align="center" className={classes.project_paper}>
-                        <img src="../project.png" width='30' hight='30' style={{marginTop: '10px'}}/>
+                        <img src="../project.png" width='30' hight='30' style={{marginTop: '60px'}}/>
                         <typography style={{fontSize: 30, fontWeight: 'bold', color: '#1f0e0d'}}> Projects</typography>
-                        <div style={{textAlign: 'left', color: '#000', marginTop: '120px'}}>
+                        <div style={{textAlign: 'left', color: '#000', marginTop: '68px'}}>
                             <p><Button variant="contained" style={{color: 'rgba(123,70,134,0.91)'}}>
                                 <b><i>Libraries App</i></b>
                             </Button>
@@ -186,10 +186,10 @@ function App() {
                                     </li>
                                 </ul>
                             </p>
-                            <p><Button variant="contained" style={{color: 'rgba(123,70,134,0.91)'}}>
+                            <p><Button variant="contained" style={{color: 'rgba(123,70,134,0.91)', marginTop: '68px'}}>
                                 <b><i>Alarm System - Arduino</i></b>
                             </Button>
-                                <Button variant="contained" color='secondary' href="https://www.tinkercad.com/embed/5hKahdtF0Nj?editbtn=1">
+                                <Button variant="contained" color='secondary' href="https://www.tinkercad.com/embed/5hKahdtF0Nj?editbtn=1" style={{marginTop: '68px'}}>
                                     View project
                                 </Button>
                                 <ul>
@@ -208,10 +208,10 @@ function App() {
                                     </li>
                                 </ul>
                             </p>
-                            <p><Button variant="contained" style={{color: 'rgba(123,70,134,0.91)'}}>
+                            <p><Button variant="contained" style={{color: 'rgba(123,70,134,0.91)', marginTop: '68px'}}>
                                 <b><i>Morse Code - Arduino</i></b>
                             </Button>
-                                <Button variant="contained" color='secondary' href="https://www.tinkercad.com/embed/gXfsY2lRQS2?editbtn=1">
+                                <Button variant="contained" color='secondary' href="https://www.tinkercad.com/embed/gXfsY2lRQS2?editbtn=1" style={{marginTop: '68px'}}>
                                     View project
                                 </Button>
                                 <ul>
@@ -226,7 +226,7 @@ function App() {
                                     </li>
                                 </ul>
                             </p>
-                            <p><Button variant="contained" style={{color: 'rgba(123,70,134,0.91)'}}>
+                            <p><Button variant="contained" style={{color: 'rgba(123,70,134,0.91)', marginTop: '68px'}}>
                                 <b><i>Depo Construct</i></b>
                             </Button>
                                 <ul>
