@@ -1,5 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles';
-import {Grid, Paper, Container, Avatar} from '@material-ui/core';
+import {Grid, Paper, Container, Avatar, Button} from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -8,6 +8,11 @@ const useStyles = makeStyles((theme) => ({
     paper: {
         width: 380,
         height: 240,
+        backgroundColor: "#fff",
+    },
+    project_paper: {
+        width: 380,
+        height: 1068,
         backgroundColor: "#fff",
     },
     large: {
@@ -25,9 +30,9 @@ function App() {
 
                 <Container maxWidth="md" style={{backgroundColor: 'rgba(123,70,134,0.91)', height: '1500px', width: '460px'}}>
 
-                    <Grid item xs={6} style={{marginTop: '50px'}}>
+                    <Grid item xs={12} style={{marginTop: '50px'}}>
 
-                        <div className={classes.root}>
+                        <div className={classes.root} >
                             <Avatar alt="Mateiu Adelina-Sonia" src="../myPicture.jpg" className={classes.large} />
                         </div>
 
@@ -105,9 +110,73 @@ function App() {
 
                 <Grid align="center" item xs={6} style={{ marginTop: '188px', marginRight: '20px'}}>
 
-                    <Paper align="center" className={classes.paper} />
+                    <Paper align="center" className={classes.project_paper}>
+                        <img src="../project.png" width='30' hight='30' style={{marginTop: '10px'}}/>
+                        <typography style={{fontSize: 30, fontWeight: 'bold', color: '#1f0e0d'}}>   Projects</typography>
+                        <div style={{textAlign: 'left', color: '#000'}}>
+                          <p><Button variant="contained" style={{color: 'rgba(123,70,134,0.91)'}}>
+                              <b>Libraries App</b>
+                          </Button>
+                              <ul><li>Developed a Desktop Application, using
+                                  Java, that allows libraries to manage their
+                                  books/documents booking and online reading
+                                  access. The library can opt-in to allow the
+                                  user to read a specific book online, or allow
+                                  the user to make a booking request and if
+                                  the booking request is accepted by the library
+                                  manager, the user can come physically to the
+                                  library to pick up that book.</li> <br></br>
+                                  <li>Developed the Backend using Java and
+                                  Maven, and made use of JSON entities to
+                                  fetch/persist the library database and the information
+                                  related to the user.</li> <br></br>
+                                  <li>Developed the Frontend using JavaFX and
+                                  FXML for the templating.</li></ul>
+                          </p>
+                          <p><Button variant="contained" style={{color: 'rgba(123,70,134,0.91)'}}>
+                              <b>Depo Construct</b>
+                          </Button>
+                              <ul><li>Developed a web platform using PHP and
+                                  Bootstrap, which has two interfaces, one for
+                                  the manager, that allows him to make CRUD
+                                  operations on his database. And the second
+                                  interface allows the user to buy products from
+                                  the business.</li> <br></br>
+                                  <li>Designed the MySQL database.</li></ul>
+                          </p>
+                          <p><Button variant="contained" style={{color: 'rgba(123,70,134,0.91)'}}>
+                              <b>Alarm System - Arduino</b>
+                          </Button>
+                              <ul><li>Developed an alarm system, using Arduino.
+                                  The project consists of an alarm system, that
+                                  works as it follows: if the alarm system is
+                                  armed, the PIR sensors detect the motion
+                                  within their range and the buzzer emits an
+                                  acoustic signal and shows the alert on an LCD,
+                                  which may include the room in which the motion
+                                  has been detected. If the system is disarmed,
+                                  any motion that the PIR sensor detects
+                                  will be ignored. The arming/disarming of the
+                                  system it is done using a keycode introduced
+                                  using a keypad.</li></ul>
+                          </p>
+                          <p><Button variant="contained" style={{color: 'rgba(123,70,134,0.91)'}}>
+                              <b>Morse Code - Arduino</b>
+                          </Button>
+                              <ul><li>Developed a master-slave system, that makes
+                                  use of 2 Arduino boards. The master board receives
+                                  a message, it encodes it to Morse Code
+                                  and transmits it to the slave board. The slave
+                                  board receives the code sent by the master
+                                  board and makes use of an LED and a Buzzer,
+                                  in order to play the Morse Code visually and
+                                  acoustically.</li></ul>
+                          </p>
+                        </div>
+                    </Paper>
 
                 </Grid>
+
 
             </Grid>
 
