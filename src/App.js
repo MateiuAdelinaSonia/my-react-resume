@@ -34,11 +34,13 @@ function App() {
                     <Grid item xs={6} style={{marginTop: '35px', marginLeft: '14px'}}>
                         <Paper align="center" className={classes.paper}>
                             <img src="../graduation.png" width='30' hight='30' style={{marginTop: '10px'}}/>
-                            <typography style={{fontSize: 30, fontWeight: 'bold', color: '#1f0e0d'}}>  Education</typography> </Paper>
+                            <typography style={{fontSize: 30, fontWeight: 'bold', color: '#1f0e0d'}}>   Education</typography> </Paper>
                     </Grid>
 
                     <Grid item xs={6} style={{marginTop: '35px', marginLeft: '14px'}}>
-                        <Paper align="center" className={classes.paper}>  </Paper>
+                        <Paper align="center" className={classes.paper}>
+                            <img src="../checklist.png" width='30' hight='30' style={{marginTop: '10px'}}/>
+                            <typography style={{fontSize: 30, fontWeight: 'bold', color: '#1f0e0d'}}>   Achievements</typography> </Paper>
                     </Grid>
 
                     <Grid item xs={6} style={{marginTop: '35px', marginLeft: '14px'}}>
