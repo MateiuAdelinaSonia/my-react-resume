@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
 function App() {
     const classes = useStyles();
     return (
-        <Container maxWidth="md" style={{backgroundColor: '#d9dede', height: '1500px', width: '2000px'}}>
+        <Container maxWidth="md" style={{backgroundColor: '#ddd0e0', height: '1500px', width: '2000px'}}>
 
             <Grid container spacing={10}>
 
